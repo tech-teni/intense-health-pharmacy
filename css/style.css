@@ -5952,4 +5952,10 @@ a:hover {
   .prescription-info input[type="email"]{
     width: 65%;
   }
+
+  .prescription-info input[type="submit"]{
+    height: 50px;
+    padding: 10px 15px;
+  }
 }
+

@@ -3415,8 +3415,8 @@ background-color: #2a254e;
     z-index: 2;
 }
 .wrap-caption .caption-heading {
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 60px;
+    font-weight: 800;
     padding: 0;
     margin-bottom: 0;
     margin-top: 0;
@@ -3471,7 +3471,7 @@ background-color: #2a254e;
     }
     
     .wrap-caption .caption-heading {
-        font-size: 45px;
+        font-size: 35px;
     }
     
     .wrap-caption.center,
@@ -4322,6 +4322,7 @@ body {
   padding-left: 15px;
 }
 
+
 .prescription-info p {
   font-size: 18px;
   margin-top: 10px;
@@ -4542,7 +4543,7 @@ a:hover {
 
 /* Navbar */
 .site-logo img {
-  width: 120px;
+  width: 130px;
 }
 
 .site-logo a {
@@ -5899,7 +5900,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #80bb58ce;
+  background:#80bb58b8;
   z-index: 1;
 }
 .bg-image > .container {
@@ -5926,4 +5927,29 @@ a:hover {
 
 .custom-table td {
   color: #000;
+}
+
+
+@media screen and (max-width: 778px){
+  .prescription {
+ display: flex;
+ flex-direction: column;
+  }
+   
+  .upload-file{
+    min-height: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .prescription-info h2{
+    font-size: 1.5rem;
+
+  }
+  .prescription-info p{
+    font-size: 14px;
+    list-style: 10px;
+  }
+  .prescription-info input[type="email"]{
+    width: 65%;
+  }
 }

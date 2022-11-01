@@ -3327,6 +3327,12 @@ background-color: #2a254e;
     background-size: cover;
     background-position: center center;
 }
+@media screen and (max-width: 560px){
+  .banner .owl-theme .item {
+    background-position: center right;
+}
+
+}
 .banner .owl-theme .item img {
     display: none;
 }

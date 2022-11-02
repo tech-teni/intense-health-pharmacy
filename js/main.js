@@ -1,3 +1,4 @@
+ 
 AOS.init({
   duration: 800,
   easing: "slide",
@@ -104,7 +105,6 @@ jQuery(document).ready(function ($) {
     $(window).resize(function () {
       var $this = $(this),
         w = $this.width();
-
       if (w > 768) {
         if ($("body").hasClass("offcanvas-menu")) {
           $("body").removeClass("offcanvas-menu");
@@ -220,7 +220,7 @@ jQuery(document).ready(function ($) {
   siteMagnificPopup();
 
   var searchShow = function () {
-    // alert();
+ 
     var searchWrap = $(".search-wrap");
     $(".js-search-open").on("click", function (e) {
       e.preventDefault();
@@ -237,6 +237,3 @@ jQuery(document).ready(function ($) {
   searchShow();
 });
 
-// ***************************************************************
-
-// ******************************************************************************

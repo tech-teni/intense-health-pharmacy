@@ -3303,7 +3303,7 @@ background-color: #2a254e;
     height: 100%;
 }
 .banner .owl-theme div:not(.owl-controls) {
-    height: 75vh;
+    height: 100vh;
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -5970,4 +5970,34 @@ a:hover {
 
 .selected{
   border-bottom: 2px solid black;
+}
+
+
+#main-banner{
+  background-image: url(/images/hero_7.jpg) !important;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position: 10% 10%;}
+
+#main-banner2{
+  background-image: url(/images/hero_7.jpg) !important;
+}
+
+
+
+@media screen and (max-width: 567px){
+  #main-banner{
+
+    background-image: url(/images/hero_9.jpg) !important;
+    background-position:  center;
+  }
+  
+  #main-banner2{
+    background-image: url(/images/hero_9.jpg) !important;
+  }
+  
+  .section-overlap {
+    margin-top: -100px;
+}
 }

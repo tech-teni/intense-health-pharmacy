@@ -5972,6 +5972,14 @@ a:hover {
   border-bottom: 2px solid black;
 }
 
+.select-now{
+  border: none;
+  padding: 5px 12px;
+  border-radius: 8px;
+  background-color: #7fbb58;
+  color: white;
+  font-size: 15px;
+}
 
 #main-banner{
   background-image: url(../images/hero_7.jpg) !important;
@@ -5981,7 +5989,7 @@ a:hover {
 background-position: 10% 10%;}
 
 #main-banner2{
-  background-image: url(../images/hero_7.jpg) !important;
+  background-image: url(../images/hero_11.png) !important;
 }
 
 

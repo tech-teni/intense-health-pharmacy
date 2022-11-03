@@ -5989,12 +5989,12 @@ background-position: 10% 10%;}
 @media screen and (max-width: 567px){
   #main-banner{
 
-    background-image: url(/images/hero_9.jpg) !important;
+    background-image: url(../images/hero_9.jpg) !important;
     background-position:  center;
   }
   
   #main-banner2{
-    background-image: url(/images/hero_9.jpg) !important;
+    background-image: url(../images/hero_9.jpg) !important;
   }
   
   .section-overlap {
